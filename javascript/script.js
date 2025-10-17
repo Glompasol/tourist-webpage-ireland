@@ -26,11 +26,3 @@
       document.getElementById("3").textContent = desc
     }
   }
-
-  document.getElementById('show-video-btn').onclick = function() {
-    document.getElementById('video-modal').style.display = 'flex';
-  };
-  document.getElementById('video-modal-btn').onclick = function() {
-    document.getElementById('video-modal').style.display = 'none';
-  };
-
